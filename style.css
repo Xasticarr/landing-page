@@ -104,6 +104,7 @@ button a {
     margin-bottom: 32px;
     text-align: center;
     color: #1f2937;
+    padding-top: 50px;
 
 }
 
@@ -111,6 +112,7 @@ button a {
     display: flex;
     justify-content: center;
     gap: 52px;
+    padding-bottom: 150px;
     
 }
 
@@ -130,5 +132,30 @@ button a {
     padding-top: 25px;
 }
 
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    padding: 100px;
+    gap: 20px;
+}
 
+.quote {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 750px;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+}
 
+.signature {
+    padding-left: 350px;
+    font-size: 24px;
+    font-weight: bold;
+
+  
+}
